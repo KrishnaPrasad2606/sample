@@ -14,13 +14,10 @@ int main ()
   printf("Hello ")
   printf("Enter the number");
   scanf ("%d", &n);
-  for (i = n; i >=1; i--)
-    {
-     f=f*i; 
-	
-	}
+  int z=fact(n)
+ 
      
-	  printf ("%d", f);
+	  printf ("%d", z);
 
 return 0;
 }
