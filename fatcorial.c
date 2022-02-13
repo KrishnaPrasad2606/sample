@@ -11,6 +11,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int main ()
 {
   int n, f = 1, rem, i, temp;
+  printf("Hello ")
   printf("Enter the number");
   scanf ("%d", &n);
   for (i = n; i >=1; i--)
