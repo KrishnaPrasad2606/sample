@@ -7,17 +7,18 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
+#include "factn.h"
 
 int main ()
 {
-  int n, f = 1, rem, i, temp;
-  printf("Hello ")
+  int n, f = 1, rem, i, temp,z;
+  printf("Hello ");
   printf("Enter the number");
   scanf ("%d", &n);
-  int z=fact(n)
+   z=factn(n);
  
      
-	  printf ("%d", z);
+	  printf("%d", z);
 
 return 0;
 }
